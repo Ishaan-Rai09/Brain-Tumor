@@ -13,10 +13,6 @@ dist-ssr
 
 # Brain Tumor Models & Data
 server/uploads/
-*.h5
-*.keras
-*.joblib
-*.weights
 
 # Editor directories and files
 .vscode/*
