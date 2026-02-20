@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: brain-tumor-detection
+    env: docker
+    plan: free
+    region: ohio
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: MONGO_URI
+        fromConfig: MONGO_URI
+      - key: JWT_SECRET
+        fromConfig: JWT_SECRET
+      - key: GOOGLE_CLIENT_ID
+        fromConfig: GOOGLE_CLIENT_ID

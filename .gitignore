@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Production
+dist
+dist-ssr
+*.local
+
+# Brain Tumor Models & Data
+server/uploads/
+*.h5
+*.keras
+*.joblib
+*.weights
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
